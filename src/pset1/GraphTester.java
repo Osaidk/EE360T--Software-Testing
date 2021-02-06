@@ -145,7 +145,7 @@ public class GraphTester {
         Targets.add(-1);
         assertFalse(g.reachable(Sources, Targets));
     }
-    
+
     @Test
     public void tr5() {	// One source node reaches every target node
         Graph g = new Graph(6);
