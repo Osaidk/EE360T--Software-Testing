@@ -11,7 +11,7 @@ import static org.junit.Assert.*;
 public class GraphTester {
 
     @Test
-    public void tae0() {  // tests for method "addEdge" in class "Graph"
+    public void tae0() {  // tests for method "addEdge" in class "Graph".
         Graph g = new Graph(2);
         g.addEdge(0, 1);
         g.addEdge(0, 4);
